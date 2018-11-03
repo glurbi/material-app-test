@@ -1,26 +1,40 @@
-<mat-sidenav-container id="wrapper">
+<mat-sidenav-container class="fullviewport">
 
-  <mat-sidenav #menu color="accent">
+  <mat-sidenav #menu>
     QWERTYU
   </mat-sidenav>
 
-  <mat-sidenav-content>
+  <mat-sidenav-content style="height: 100vh;">
+    <div class="appcontainer">
 
-    <mat-toolbar color="accent" id="header">
-      <button mat-icon-button (click)="toggleMenu()">
-        <mat-icon>menu</mat-icon>
-      </button>
-      <h1>Top Trend</h1>
-    </mat-toolbar>
+      <header>
+        <mat-toolbar color="accent">
+          <button mat-icon-button (click)="toggleMenu()">
+            <mat-icon>menu</mat-icon>
+          </button>
+          <h1>Top Trend</h1>
+        </mat-toolbar>
+      </header>
 
-    <div id="main">
-      ASDASDASDASDASDASDASD
-      <br>
-      ZXXC
-      <br>
-      <div style="width: 50px; height: 1000px; background-color: tomato">
-      </div>
-      SFGSG
+      <main>
+        ASDASDASDASDASDASDASD
+        <br>
+        ZXXC
+        <br>
+        <div style="width: 50px; height: 1000px; background-color: tomato">
+        </div>
+        <div style="width: 1000px; height: 50px; background-color: brown"></div>
+        SFGSG
+      </main>
+
+      <footer>
+        <mat-toolbar color="accent">
+          <button mat-icon-button (click)="toggleMenu()">
+            <mat-icon>menu</mat-icon>
+          </button>
+        </mat-toolbar>
+      </footer>
+
     </div>
   </mat-sidenav-content>
 
