@@ -26,3 +26,7 @@ main {
 footer {
     flex-shrink: 0;
 }
+
+mat-sidenav-content {
+    height: 100vh;
+}
