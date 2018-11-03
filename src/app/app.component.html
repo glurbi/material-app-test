@@ -1,23 +1,27 @@
-<div style="display: flex; flex-direction: column; height:100%">
+<mat-sidenav-container id="wrapper">
 
-  <div class="header">
-    <mat-toolbar>
+  <mat-sidenav #menu color="accent">
+    QWERTYU
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <mat-toolbar color="accent" id="header">
       <button mat-icon-button (click)="toggleMenu()">
         <mat-icon>menu</mat-icon>
       </button>
       <h1>Top Trend</h1>
     </mat-toolbar>
-  </div>
 
-  <div class="main" style="flex-grow: 1">
-    <mat-sidenav-container style="height: 100%">
-      <mat-sidenav #menu>
-        QWERTYU
-      </mat-sidenav>
-      <mat-sidenav-content>
-        ASDASDASDASDASDASDASD
-      </mat-sidenav-content>
-    </mat-sidenav-container>
-  </div>
+    <div id="main">
+      ASDASDASDASDASDASDASD
+      <br>
+      ZXXC
+      <br>
+      <div style="width: 50px; height: 1000px; background-color: tomato">
+      </div>
+      SFGSG
+    </div>
+  </mat-sidenav-content>
 
-</div>
+</mat-sidenav-container>

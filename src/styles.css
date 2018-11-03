@@ -1,9 +1,24 @@
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 
-app-root {
+#wrapper {
     position: absolute;
+    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+}
+
+#header {
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#main {
+    overflow-y: auto;
+    position: fixed;
+    top: 64px;
+    bottom: 0;
+    width: 100%;
 }
