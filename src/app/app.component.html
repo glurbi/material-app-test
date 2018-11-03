@@ -1,15 +1,18 @@
 <mat-sidenav-container class="fullviewport">
 
   <mat-sidenav #menu>
-    <button mat-icon-button color="primary">
-      <mat-icon>sentiment_satisfied</mat-icon>
-    </button>
-    <button mat-icon-button color="primary">
-      <mat-icon>sentiment_very_dissatisfied</mat-icon>
-    </button>
-    <button mat-icon-button color="primary">
-      <mat-icon>sentiment_very_satisfied</mat-icon>
-    </button>
+    <nav>
+      <button mat-icon-button color="primary" routerLink="/icons">
+        <mat-icon>sentiment_satisfied</mat-icon>
+      </button>
+      <button mat-icon-button color="primary">
+        <mat-icon>sentiment_very_dissatisfied</mat-icon>
+      </button>
+      <button mat-icon-button color="primary">
+        <mat-icon>sentiment_very_satisfied</mat-icon>
+      </button>
+      <a routerLink="/icons" (click)="toggleMenu()">Icons</a>
+    </nav>
   </mat-sidenav>
 
   <mat-sidenav-content>
