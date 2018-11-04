@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './material.module';
 import { RoutingModule } from './routing.module';
 import { IconsComponent } from './icons/icons.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IconsComponent,
+    TooltipsComponent,
   ],
   imports: [
     BrowserModule,
