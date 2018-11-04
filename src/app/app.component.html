@@ -2,16 +2,12 @@
 
   <mat-sidenav #menu>
     <nav>
-      <button mat-icon-button color="primary" routerLink="/icons">
-        <mat-icon>sentiment_satisfied</mat-icon>
-      </button>
-      <button mat-icon-button color="primary">
-        <mat-icon>sentiment_very_dissatisfied</mat-icon>
-      </button>
-      <button mat-icon-button color="primary">
-        <mat-icon>sentiment_very_satisfied</mat-icon>
-      </button>
-      <a routerLink="/icons" (click)="toggleMenu()">Icons</a>
+      <a routerLink="/icons" (click)="toggleMenu()">
+        <button mat-raised-button color="primary">Icons</button>
+      </a>
+      <a routerLink="/tooltips" (click)="toggleMenu()">
+        <button mat-raised-button color="primary">Tooltips</button>
+      </a>
     </nav>
   </mat-sidenav>
 
@@ -23,9 +19,6 @@
           <button mat-icon-button (click)="toggleMenu()">
             <mat-icon>menu</mat-icon>
           </button>
-          <button mat-icon-button>
-            <mat-icon>search</mat-icon>
-          </button>
         </mat-toolbar>
       </header>
 
@@ -35,10 +28,10 @@
 
       <footer>
         <mat-toolbar color="accent">
-          <button mat-icon-button (click)="toggleMenu()">
-            <mat-icon>menu</mat-icon>
-          </button>
-        </mat-toolbar>
+            <button mat-icon-button>
+                <mat-icon>search</mat-icon>
+              </button>
+            </mat-toolbar>
       </footer>
 
     </div>
