@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.example {
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 50px;
+    margin: 20px 0 0 20px;
+}
+
+.example-user-input {
+    margin-right: 8px;
+}
+
+.example-button {
+    margin-top: 16px;
+}
+  
+::ng-deep .example-tooltip-red {
+    background: #b71c1c;
+}
+

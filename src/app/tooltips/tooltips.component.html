@@ -1,17 +1,35 @@
-<button mat-raised-button matTooltip="Info about the action" aria-label="Button that displays a tooltip when focused or hovered over">
-  Action
-</button>
+<div class="container">
 
-<br>
+  <div class="example">
+    <button mat-raised-button matTooltip="Info about the action" aria-label="Button that displays a tooltip when focused or hovered over">
+      Action
+    </button>
+  </div>
 
-<mat-form-field class="example-user-input">
-  <mat-select placeholder="Tooltip position" [formControl]="position">
-    <mat-option *ngFor="let positionOption of positionOptions" [value]="positionOption">
-      {{positionOption}}
-    </mat-option>
-  </mat-select>
-</mat-form-field>
+  <div class="example">
+    <mat-form-field class="example-user-input">
+      <mat-select placeholder="Tooltip position" [formControl]="position">
+        <mat-option *ngFor="let positionOption of positionOptions" [value]="positionOption">
+          {{positionOption}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button matTooltip="Info about the action" [matTooltipPosition]="position.value" aria-label="Button that displays a tooltip in various positions">
+      Action
+    </button>
+  </div>
 
-<button mat-raised-button matTooltip="Info about the action" [matTooltipPosition]="position.value" aria-label="Button that displays a tooltip in various positions">
-  Action
-</button>
+  <div class="example">
+    <button mat-raised-button matTooltip="Info about the action" matTooltipClass="example-tooltip-red" aria-label="Button that shows a red tooltip"
+      class="example-button">
+      Red-tooltip Action
+    </button>
+
+  </div>
+
+  <div class="example">
+
+  </div>
+
+
+</div>
