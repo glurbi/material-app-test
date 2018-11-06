@@ -12,6 +12,9 @@ export class TooltipsComponent implements OnInit {
   positionOptions: TooltipPosition[] = ['after', 'before', 'above', 'below', 'left', 'right'];
   position = new FormControl(this.positionOptions[0]);
 
+  showDelay = new FormControl(1000);
+  hideDelay = new FormControl(2000);  
+  
   constructor() { }
 
   ngOnInit() {
