@@ -50,4 +50,13 @@
     </mat-checkbox>
   </div>
 
+  <div class="example">
+    <mat-form-field class="example-user-input-3">
+      <input matInput placeholder="Tooltip message" [formControl]="message">
+    </mat-form-field>
+    <button mat-raised-button [matTooltip]="message.value" aria-label="Button that displays a tooltip with a custom message">
+      Action
+    </button>
+  </div>
+
 </div>
