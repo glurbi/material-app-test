@@ -14,6 +14,8 @@ export class TooltipsComponent implements OnInit {
 
   showDelay = new FormControl(1000);
   hideDelay = new FormControl(2000);  
+
+  disabled = new FormControl(false);
   
   constructor() { }
 
