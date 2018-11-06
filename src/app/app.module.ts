@@ -8,12 +8,14 @@ import { MaterialModule } from './material.module';
 import { RoutingModule } from './routing.module';
 import { IconsComponent } from './icons/icons.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
+import { CheckboxesComponent } from './checkboxes/checkboxes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IconsComponent,
     TooltipsComponent,
+    CheckboxesComponent,
   ],
   imports: [
     BrowserModule,
