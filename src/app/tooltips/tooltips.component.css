@@ -21,7 +21,7 @@
     margin-top: 16px;
 }
   
-::ng-deep .example-tooltip-red {
+.example-tooltip-red {
     background: #b71c1c;
 }
 

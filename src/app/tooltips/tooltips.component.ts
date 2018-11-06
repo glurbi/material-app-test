@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { TooltipPosition } from '@angular/material';
 
 @Component({
   selector: 'app-tooltips',
   templateUrl: './tooltips.component.html',
-  styleUrls: ['./tooltips.component.css']
+  styleUrls: ['./tooltips.component.css'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class TooltipsComponent implements OnInit {
 
@@ -18,7 +19,7 @@ export class TooltipsComponent implements OnInit {
   disabled = new FormControl(false);
 
   message = new FormControl('Info about the action');
-  
+
   constructor() { }
 
   ngOnInit() {
