@@ -1,0 +1,19 @@
+<div class="container">
+
+  <div class="example">
+    <mat-form-field>
+      <input matInput value="Disco party!" placeholder="Message" #message>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput value="Dance" placeholder="Action" #action>
+    </mat-form-field>
+    <button mat-button (click)="openSnackbar(message.value, action.value)">Show snack-bar</button>
+  </div>
+
+  <div class="example">
+    <button mat-button (click)="openSnackbarFromComponent()" aria-label="Show an example snack-bar">
+      Pizza party
+    </button>
+  </div>
+
+</div>

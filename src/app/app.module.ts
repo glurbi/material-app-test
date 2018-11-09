@@ -9,6 +9,7 @@ import { RoutingModule } from './routing.module';
 import { IconsComponent } from './icons/icons.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { CheckboxesComponent } from './checkboxes/checkboxes.component';
+import { SnackbarComponent, PizzaPartyComponent } from './snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,8 @@ import { CheckboxesComponent } from './checkboxes/checkboxes.component';
     IconsComponent,
     TooltipsComponent,
     CheckboxesComponent,
+    SnackbarComponent,
+    PizzaPartyComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,13 @@ import { CheckboxesComponent } from './checkboxes/checkboxes.component';
     MaterialModule,
     RoutingModule,
   ],
+  entryComponents: [
+    SnackbarComponent,
+    PizzaPartyComponent
+  ],
+  bootstrap: [
+    AppComponent
+  ],
   providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
