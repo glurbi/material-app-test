@@ -4,12 +4,14 @@ import { IconsComponent } from './icons/icons.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { CheckboxesComponent } from './checkboxes/checkboxes.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
+import { ExpansionComponent } from './expansion/expansion.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
   { path: 'tooltips', component: TooltipsComponent },
   { path: 'checkboxes', component: CheckboxesComponent },
   { path: 'snackbar', component: SnackbarComponent },
+  { path: 'expansion', component: ExpansionComponent },
 ];
 
 @NgModule({
