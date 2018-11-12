@@ -15,6 +15,7 @@ import { CardComponent } from './card/card.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { TreeComponent } from './tree/tree.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { TabsComponent } from './tabs/tabs.component';
     GridlistComponent,
     StepperComponent,
     TabsComponent,
+    TreeComponent,
   ],
   imports: [
     BrowserModule,
