@@ -10,6 +10,7 @@ import { GridlistComponent } from './gridlist/gridlist.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TreeComponent } from './tree/tree.component';
+import { ListComponent } from './list/list.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'stepper', component: StepperComponent },
   { path: 'tabs', component: TabsComponent },
   { path: 'tree', component: TreeComponent },
+  { path: 'list', component: ListComponent },
 ];
 
 @NgModule({

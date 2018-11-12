@@ -16,6 +16,7 @@ import { GridlistComponent } from './gridlist/gridlist.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TreeComponent } from './tree/tree.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { TreeComponent } from './tree/tree.component';
     StepperComponent,
     TabsComponent,
     TreeComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
