@@ -18,6 +18,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { TreeComponent } from './tree/tree.component';
 import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MenuComponent } from './menu/menu.component';
     TreeComponent,
     ListComponent,
     MenuComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
