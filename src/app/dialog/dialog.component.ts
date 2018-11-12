@@ -21,7 +21,7 @@ export class DialogComponent implements OnInit {
   ngOnInit() {
   }
 
-  openDialog(): void {
+  openDialog1(): void {
     const dialogRef = this.dialog.open(DialogExample1Component, {
       width: '250px',
       data: {name: this.name, animal: this.animal}
@@ -33,6 +33,21 @@ export class DialogComponent implements OnInit {
     });
   }
 
+  openDialog2() {
+    this.dialog.open(DialogExample2Component, {
+      data: {
+        animal: 'panda'
+      }
+    });
+  }
+  
+  openDialog3() {
+    const dialogRef = this.dialog.open(DialogExample3Component);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }  
 }
 
 @Component({
@@ -49,4 +64,20 @@ export class DialogExample1Component {
     this.dialogRef.close();
   }
 
+}
+
+@Component({
+  selector: 'dialog-example2-component',
+  templateUrl: 'dialog.example2.component.html',
+})
+export class DialogExample2Component {
+
+  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+}
+
+@Component({
+  selector: 'dialog-example3-component',
+  templateUrl: 'dialog.example3.component.html',
+})
+export class DialogExample3Component {
 }
