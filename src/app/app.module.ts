@@ -14,6 +14,7 @@ import { ExpansionComponent } from './expansion/expansion.component';
 import { CardComponent } from './card/card.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
 import { StepperComponent } from './stepper/stepper.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { StepperComponent } from './stepper/stepper.component';
     CardComponent,
     GridlistComponent,
     StepperComponent,
+    TabsComponent,
   ],
   imports: [
     BrowserModule,
