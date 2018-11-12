@@ -20,6 +20,7 @@ import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bottomsheet.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     MenuComponent,
     SidenavComponent,
     ToolbarComponent,
+    BottomsheetComponent,
+    BottomsheetExampleSheet,
   ],
   imports: [
     BrowserModule,
@@ -49,6 +52,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     RoutingModule,
   ],
   entryComponents: [
+    BottomsheetExampleSheet,
     SnackbarComponent,
     PizzaPartyComponent
   ],
