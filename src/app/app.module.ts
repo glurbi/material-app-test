@@ -13,6 +13,7 @@ import { SnackbarComponent, PizzaPartyComponent } from './snackbar/snackbar.comp
 import { ExpansionComponent } from './expansion/expansion.component';
 import { CardComponent } from './card/card.component';
 import { GridlistComponent } from './gridlist/gridlist.component';
+import { StepperComponent } from './stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { GridlistComponent } from './gridlist/gridlist.component';
     ExpansionComponent,
     CardComponent,
     GridlistComponent,
+    StepperComponent,
   ],
   imports: [
     BrowserModule,
