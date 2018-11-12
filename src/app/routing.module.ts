@@ -13,6 +13,7 @@ import { TreeComponent } from './tree/tree.component';
 import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'list', component: ListComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'sidenav', component: SidenavComponent },
+  { path: 'toolbar', component: ToolbarComponent },
 ];
 
 @NgModule({
