@@ -5,6 +5,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
 import { CheckboxesComponent } from './checkboxes/checkboxes.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { ExpansionComponent } from './expansion/expansion.component';
+import { CardComponent } from './card/card.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'checkboxes', component: CheckboxesComponent },
   { path: 'snackbar', component: SnackbarComponent },
   { path: 'expansion', component: ExpansionComponent },
+  { path: 'card', component: CardComponent },
 ];
 
 @NgModule({

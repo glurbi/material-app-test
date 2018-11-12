@@ -11,6 +11,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
 import { CheckboxesComponent } from './checkboxes/checkboxes.component';
 import { SnackbarComponent, PizzaPartyComponent } from './snackbar/snackbar.component';
 import { ExpansionComponent } from './expansion/expansion.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ExpansionComponent } from './expansion/expansion.component';
     SnackbarComponent,
     PizzaPartyComponent,
     ExpansionComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
