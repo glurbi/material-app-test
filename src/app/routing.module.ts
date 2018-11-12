@@ -11,6 +11,7 @@ import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TreeComponent } from './tree/tree.component';
 import { ListComponent } from './list/list.component';
+import { MenuComponent } from './menu/menu.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'tabs', component: TabsComponent },
   { path: 'tree', component: TreeComponent },
   { path: 'list', component: ListComponent },
+  { path: 'menu', component: MenuComponent },
 ];
 
 @NgModule({

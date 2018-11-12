@@ -17,6 +17,7 @@ import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { TreeComponent } from './tree/tree.component';
 import { ListComponent } from './list/list.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ListComponent } from './list/list.component';
     TabsComponent,
     TreeComponent,
     ListComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
