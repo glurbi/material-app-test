@@ -21,6 +21,7 @@ import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bottomsheet.component';
+import { DialogComponent, DialogExample1Component } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,8 @@ import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bot
     ToolbarComponent,
     BottomsheetComponent,
     BottomsheetExampleSheet,
+    DialogComponent,
+    DialogExample1Component,
   ],
   imports: [
     BrowserModule,
@@ -53,8 +56,8 @@ import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bot
   ],
   entryComponents: [
     BottomsheetExampleSheet,
-    SnackbarComponent,
-    PizzaPartyComponent
+    PizzaPartyComponent,
+    DialogExample1Component,
   ],
   bootstrap: [
     AppComponent

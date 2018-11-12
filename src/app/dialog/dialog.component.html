@@ -1,0 +1,27 @@
+<div class="container">
+
+  <div class="example">
+    <ol>
+      <li>
+        <mat-form-field>
+          <input matInput [(ngModel)]="name" placeholder="What's your name?">
+        </mat-form-field>
+      </li>
+      <li>
+        <button mat-raised-button (click)="openDialog()">Pick one</button>
+      </li>
+      <li *ngIf="animal">
+        You chose: <i>{{animal}}</i>
+      </li>
+    </ol>
+  </div>
+
+  <div class="example">
+    <button mat-button (click)="openDialog()">Open dialog</button>
+  </div>
+
+  <div class="example">
+    <button mat-button (click)="openDialog()">Open dialog</button>
+  </div>
+
+</div>
