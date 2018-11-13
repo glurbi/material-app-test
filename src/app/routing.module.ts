@@ -16,6 +16,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BottomsheetComponent } from './bottomsheet/bottomsheet.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { PaginatorComponent } from './paginator/paginator.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'toolbar', component: ToolbarComponent },
   { path: 'bottomsheet', component: BottomsheetComponent },
   { path: 'dialog', component: DialogComponent },
+  { path: 'paginator', component: PaginatorComponent },
 ];
 
 @NgModule({

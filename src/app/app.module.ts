@@ -22,6 +22,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bottomsheet.component';
 import { DialogComponent, DialogExample1Component, DialogExample2Component, DialogExample3Component } from './dialog/dialog.component';
+import { PaginatorComponent } from './paginator/paginator.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { DialogComponent, DialogExample1Component, DialogExample2Component, Dial
     DialogExample1Component,
     DialogExample2Component,
     DialogExample3Component,
+    PaginatorComponent,
   ],
   imports: [
     BrowserModule,
