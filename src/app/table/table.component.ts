@@ -68,6 +68,7 @@ export class TableComponent implements OnInit {
   dataSource4 = new MatTableDataSource(ELEMENT_DATA_1);
 
   displayedColumns2: string[] = ['item', 'cost'];
+
   transactions: Transaction[] = [
     { item: 'Beach ball', cost: 4 },
     { item: 'Towel', cost: 5 },
@@ -78,8 +79,16 @@ export class TableComponent implements OnInit {
   ];
 
   displayedColumns3: string[] = ['select', 'position', 'name', 'weight', 'symbol'];
+
   dataSource5 = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA_1);
+
   selection = new SelectionModel<PeriodicElement>(true, []);
+
+  dataSource6 = ELEMENT_DATA_1;
+
+  displayedColumns4 = ['name', 'position', 'weight', 'symbol', 'position', 'weight', 'symbol', 'star'];
+
+  dataSource7 = ELEMENT_DATA_1;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
