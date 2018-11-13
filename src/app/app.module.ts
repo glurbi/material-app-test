@@ -23,6 +23,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bottomsheet.component';
 import { DialogComponent, DialogExample1Component, DialogExample2Component, DialogExample3Component } from './dialog/dialog.component';
 import { PaginatorComponent } from './paginator/paginator.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { PaginatorComponent } from './paginator/paginator.component';
     DialogExample2Component,
     DialogExample3Component,
     PaginatorComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,
