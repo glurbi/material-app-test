@@ -25,6 +25,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
 import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
+import { SelectComponent } from './select/select.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -52,6 +53,7 @@ const routes: Routes = [
   { path: 'formfield', component: FormfieldComponent },
   { path: 'input', component: InputComponent },
   { path: 'radiobuttons', component: RadiobuttonsComponent },
+  { path: 'select', component: SelectComponent },
 ];
 
 @NgModule({

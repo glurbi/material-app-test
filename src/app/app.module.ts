@@ -31,6 +31,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
 import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
+import { SelectComponent } from './select/select.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
     FormfieldComponent,
     InputComponent,
     RadiobuttonsComponent,
+    SelectComponent,
   ],
   imports: [
     BrowserModule,
