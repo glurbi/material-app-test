@@ -17,11 +17,21 @@ export interface ChipColor {
   styleUrls: ['./buttonish.component.css']
 })
 export class ButtonishComponent {
+
+  readonly separatorKeysCodes: number[] = [ENTER, COMMA];
+
   visible = true;
   selectable = true;
   removable = true;
   addOnBlur = true;
-  readonly separatorKeysCodes: number[] = [ENTER, COMMA];
+  
+  centered = false;
+  disabled = false;
+  unbounded = false;
+
+  radius: number;
+  color: string;
+
   fruits: Fruit[] = [
     { name: 'Lemon' },
     { name: 'Lime' },
