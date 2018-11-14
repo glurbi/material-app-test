@@ -20,6 +20,7 @@ import { PaginatorComponent } from './paginator/paginator.component';
 import { TableComponent } from './table/table.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonishComponent } from './buttonish/buttonish.component';
+import { ProgressComponent } from './progress/progress.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -42,6 +43,7 @@ const routes: Routes = [
   { path: 'paginator', component: PaginatorComponent },
   { path: 'buttons', component: ButtonsComponent },
   { path: 'buttonish', component: ButtonishComponent },
+  { path: 'progress', component: ProgressComponent },
 ];
 
 @NgModule({

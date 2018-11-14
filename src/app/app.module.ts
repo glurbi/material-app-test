@@ -26,6 +26,7 @@ import { PaginatorComponent } from './paginator/paginator.component';
 import { TableComponent } from './table/table.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonishComponent } from './buttonish/buttonish.component';
+import { ProgressComponent } from './progress/progress.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { ButtonishComponent } from './buttonish/buttonish.component';
     TableComponent,
     ButtonsComponent,
     ButtonishComponent,
+    ProgressComponent,
   ],
   imports: [
     BrowserModule,
