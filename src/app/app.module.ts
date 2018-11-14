@@ -28,6 +28,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonishComponent } from './buttonish/buttonish.component';
 import { ProgressComponent } from './progress/progress.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
+import { FormfieldComponent } from './formfield/formfield.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
     ButtonishComponent,
     ProgressComponent,
     DatepickerComponent,
+    FormfieldComponent,
   ],
   imports: [
     BrowserModule,
