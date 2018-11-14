@@ -24,6 +24,7 @@ import { BottomsheetComponent, BottomsheetExampleSheet } from './bottomsheet/bot
 import { DialogComponent, DialogExample1Component, DialogExample2Component, DialogExample3Component } from './dialog/dialog.component';
 import { PaginatorComponent } from './paginator/paginator.component';
 import { TableComponent } from './table/table.component';
+import { ButtonsComponent } from './buttons/buttons.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { TableComponent } from './table/table.component';
     DialogExample3Component,
     PaginatorComponent,
     TableComponent,
+    ButtonsComponent,
   ],
   imports: [
     BrowserModule,
