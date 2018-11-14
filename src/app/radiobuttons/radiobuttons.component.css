@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.example {
+    width: 100%;
+    padding: 50px;
+    margin: 20px 20px 0 20px;
+}
+
+.example:last-of-type {
+    margin: 20px;
+}
+
+.mat-radio-button ~ .mat-radio-button {
+    padding-right: 16px;
+}
+
+.example-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+}
+  
+.example-radio-button {
+    margin: 5px;
+}
+  
+.example-selected-value {
+    margin: 15px 0;
+}

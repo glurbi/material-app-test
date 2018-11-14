@@ -30,6 +30,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
+import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { InputComponent } from './input/input.component';
     DatepickerComponent,
     FormfieldComponent,
     InputComponent,
+    RadiobuttonsComponent,
   ],
   imports: [
     BrowserModule,
