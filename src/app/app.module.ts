@@ -25,6 +25,7 @@ import { DialogComponent, DialogExample1Component, DialogExample2Component, Dial
 import { PaginatorComponent } from './paginator/paginator.component';
 import { TableComponent } from './table/table.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { ButtonishComponent } from './buttonish/buttonish.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
     PaginatorComponent,
     TableComponent,
     ButtonsComponent,
+    ButtonishComponent,
   ],
   imports: [
     BrowserModule,
