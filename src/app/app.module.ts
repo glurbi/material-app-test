@@ -27,6 +27,7 @@ import { TableComponent } from './table/table.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonishComponent } from './buttonish/buttonish.component';
 import { ProgressComponent } from './progress/progress.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { ProgressComponent } from './progress/progress.component';
     ButtonsComponent,
     ButtonishComponent,
     ProgressComponent,
+    DatepickerComponent,
   ],
   imports: [
     BrowserModule,

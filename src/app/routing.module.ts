@@ -21,6 +21,7 @@ import { TableComponent } from './table/table.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonishComponent } from './buttonish/buttonish.component';
 import { ProgressComponent } from './progress/progress.component';
+import { DatepickerComponent } from './datepicker/datepicker.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -44,6 +45,7 @@ const routes: Routes = [
   { path: 'buttons', component: ButtonsComponent },
   { path: 'buttonish', component: ButtonishComponent },
   { path: 'progress', component: ProgressComponent },
+  { path: 'datepicker', component: DatepickerComponent },
 ];
 
 @NgModule({
