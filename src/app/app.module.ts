@@ -32,6 +32,7 @@ import { FormfieldComponent } from './formfield/formfield.component';
 import { InputComponent } from './input/input.component';
 import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
 import { SelectComponent } from './select/select.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,7 @@ import { SelectComponent } from './select/select.component';
     InputComponent,
     RadiobuttonsComponent,
     SelectComponent,
+    SliderComponent,
   ],
   imports: [
     BrowserModule,

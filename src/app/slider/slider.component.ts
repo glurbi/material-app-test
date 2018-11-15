@@ -1,0 +1,43 @@
+import { coerceNumberProperty } from '@angular/cdk/coercion';
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-slider',
+  templateUrl: './slider.component.html',
+  styleUrls: ['./slider.component.css']
+})
+export class SliderComponent {
+
+  autoTicks = false;
+  disabled = false;
+  invert = false;
+  max = 100;
+  min = 0;
+  showTicks = false;
+  step = 1;
+  thumbLabel = false;
+  value = 0;
+  vertical = false;
+
+  get tickInterval(): number | 'auto' {
+    return this.showTicks ? (this.autoTicks ? 'auto' : this._tickInterval) : 0;
+  }
+
+  set tickInterval(value) {
+    this._tickInterval = coerceNumberProperty(value);
+  }
+
+  private _tickInterval = 1;
+
+  formatLabel(value: number | null) {
+    if (!value) {
+      return 0;
+    }
+
+    if (value >= 1000) {
+      return Math.round(value / 1000) + 'k';
+    }
+
+    return value;
+  }
+}
