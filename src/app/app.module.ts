@@ -35,6 +35,7 @@ import { SelectComponent } from './select/select.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
+import { DraganddropComponent } from './draganddrop/draganddrop.component';
 
 @NgModule({
   declarations: [
@@ -73,6 +74,7 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
     SliderComponent,
     SlidetoggleComponent,
     AutocompleteComponent,
+    DraganddropComponent,
   ],
   imports: [
     BrowserModule,
