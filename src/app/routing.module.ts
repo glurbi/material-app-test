@@ -28,6 +28,7 @@ import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
 import { SelectComponent } from './select/select.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path: 'select', component: SelectComponent },
   { path: 'slider', component: SliderComponent },
   { path: 'slidetoggle', component: SlidetoggleComponent },
+  { path: 'autocomplete', component: AutocompleteComponent },
 ];
 
 @NgModule({
