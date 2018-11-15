@@ -27,6 +27,7 @@ import { InputComponent } from './input/input.component';
 import { RadiobuttonsComponent } from './radiobuttons/radiobuttons.component';
 import { SelectComponent } from './select/select.component';
 import { SliderComponent } from './slider/slider.component';
+import { SlidetoggleComponent } from './slidetoggle/slidetoggle.component';
 
 const routes: Routes = [
   { path: 'icons', component: IconsComponent },
@@ -56,6 +57,7 @@ const routes: Routes = [
   { path: 'radiobuttons', component: RadiobuttonsComponent },
   { path: 'select', component: SelectComponent },
   { path: 'slider', component: SliderComponent },
+  { path: 'slidetoggle', component: SlidetoggleComponent },
 ];
 
 @NgModule({
